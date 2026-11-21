@@ -7,6 +7,4 @@ A simple Streamlit interface presents the analysis, comparisons, and recommendat
 
 Deployed Website Link - https://hxfllnkyveemdhuo6dfb8g.streamlit.app/
 
-## Streamlit Community Cloud deployment
 
-Select Python **3.11** in Community Cloud's Advanced settings when deploying. The supplied build log shows Python 3.14.10, where Gensim's native extension fails to compile. Community Cloud requires deleting and redeploying the existing app to change its Python version. The CPU-only PyTorch wheel is configured in `requirements.txt` to avoid downloading CUDA packages on Cloud.
