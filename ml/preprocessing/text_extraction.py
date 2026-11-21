@@ -1,17 +1,9 @@
-"""Safe text extraction for supported resume document formats."""
-
 from io import BytesIO
 import re
 
 MAX_FILE_BYTES = 10 * 1024 * 1024
 
-
 def extract_text(filename: str, content: bytes) -> str:
-    """Extract text from a PDF or DOCX byte payload.
-
-    Raises ValueError for unsupported, empty, or oversized input and RuntimeError
-    when a supported document cannot be parsed.
-    """
     if not filename or not isinstance(content, bytes) or not content:
         raise ValueError("Please provide a non-empty PDF or DOCX file.")
     if len(content) > MAX_FILE_BYTES:
@@ -39,7 +31,6 @@ def extract_text(filename: str, content: bytes) -> str:
 
 
 def extract_profile_sections(text: str) -> dict[str, list[str]]:
-    """Best-effort extraction of education, experience, and project sections."""
     headings = {
         "education": re.compile(r"^\s*(education|academic background|qualifications)\s*:?\s*$", re.I),
         "experience": re.compile(r"^\s*(work experience|professional experience|experience|employment history)\s*:?\s*$", re.I),
