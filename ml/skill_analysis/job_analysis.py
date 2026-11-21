@@ -1,7 +1,4 @@
-"""Classify extracted job skills by nearby requirement language."""
-
 import re
-
 from ml.skill_analysis.skill_extraction import extract_skills
 from ml.skill_analysis.skill_normalization import load_taxonomy
 
