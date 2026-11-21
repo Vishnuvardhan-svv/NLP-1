@@ -1,5 +1,3 @@
-"""Canonical skill-name and alias handling."""
-
 import json
 import re
 from pathlib import Path
