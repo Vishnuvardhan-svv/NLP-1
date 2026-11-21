@@ -1,5 +1,3 @@
-"""PhraseMatcher based extraction using a local curated skill vocabulary."""
-
 from functools import lru_cache
 import spacy
 from spacy.matcher import PhraseMatcher
@@ -22,7 +20,6 @@ def _matcher():
     return nlp, matcher, labels
 
 def extract_skills(text: str) -> list[str]:
-    """Return canonical skills found in text, in first-appearance order."""
     if not text or not text.strip():
         return []
     nlp, matcher, labels = _matcher()
