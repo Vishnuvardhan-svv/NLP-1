@@ -1,5 +1,3 @@
-"""Exact and weighted skill coverage calculations."""
-
 def compare_skills(resume_skills: list[str], required: list[str], preferred: list[str], required_weight: float = 2.0, preferred_weight: float = 1.0) -> dict:
     resume = set(resume_skills)
     required = list(dict.fromkeys(required))
