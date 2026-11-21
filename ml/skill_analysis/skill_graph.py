@@ -1,8 +1,5 @@
-"""Curated skill prerequisites and related-skill lookup using NetworkX."""
-
 import json
 from pathlib import Path
-
 import networkx as nx
 from ml.skill_analysis.skill_normalization import load_taxonomy
 
