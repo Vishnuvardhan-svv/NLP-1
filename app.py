@@ -1,6 +1,4 @@
-"""SkillGraph AI: local-first resume and job skill analysis in Streamlit."""
 from __future__ import annotations
-
 import pandas as pd
 import streamlit as st
 
@@ -73,7 +71,7 @@ if page == "Dashboard":
                 values["Transformer"] = similarity["transformer"] * 100
             st.bar_chart(pd.Series(values, name="Similarity (%)"), y_label="Similarity (%)")
     else:
-        st.info("Add a resume and job description, then run an analysis to populate the charts.")
+        st.info("Add a resume and job description, then run an analysis.")
 
     taxonomy = cached_taxonomy()
     categories = list(taxonomy)
@@ -100,8 +98,8 @@ if page == "Dashboard":
             rows.append({"Skill": skill, "In resume": skill in resume_set, "Required": skill in required_set, "Preferred": skill in preferred_set, "Status": status})
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
     else:
-        st.caption("No skills from this category appear in the current resume or job description yet.")
-    st.caption("All scores are descriptive comparisons, not probabilities of getting hired.")
+        st.caption("No skills from this category appears.")
+    st.caption("All scores are descriptive comparisons.")
 
 elif page == "Resume Upload":
     st.title("Resume Upload")
@@ -138,7 +136,7 @@ elif page == "Resume Upload":
             st.session_state.analysis = None
         if not selected_resume_skills:
             st.warning("No resume skills are selected. Coverage will be 0% until you select skills from the taxonomy.")
-        with st.expander("Education, experience, and project sections (best effort)"):
+        with st.expander("Education, experience, and project sections"):
             for section, lines in extract_profile_sections(st.session_state.resume_text).items():
                 st.markdown(f"**{section.title()}**")
                 st.write("\n".join(lines) if lines else "No clearly headed section found.")
@@ -184,7 +182,7 @@ elif page == "Job Description":
         keywords = sorted(set(word.casefold().strip(".,;:()[]") for word in entered.split() if len(word.strip(".,;:()[]")) >= 5))
         show_list("Long-form keywords", keywords[:30])
     else:
-        st.info("Paste a job description to detect and review skills.")
+        st.info("Paste a skills description to detect and review skills.")
 
 elif page == "Skill Gap Analysis":
     st.title("Skill Gap Analysis")
