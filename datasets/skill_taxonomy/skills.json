@@ -1,0 +1,41 @@
+{
+  "Programming Languages": {
+    "Python": ["py"], "JavaScript": ["js", "javascript es6"], "TypeScript": ["ts"],
+    "Java": [], "C++": ["cpp"], "C#": ["c sharp", "csharp"], "Go": ["golang"],
+    "Rust": [], "PHP": [], "Ruby": [], "SQL": ["structured query language"], "Bash": ["shell scripting"]
+  },
+  "Frontend Development": {
+    "React": ["reactjs", "react.js"], "Angular": ["angularjs"], "Vue.js": ["vue", "vuejs"],
+    "HTML": ["html5"], "CSS": ["css3"], "Next.js": ["nextjs"], "Redux": [], "Tailwind CSS": ["tailwind"]
+  },
+  "Backend Development": {
+    "Node.js": ["node", "nodejs"], "Express": ["express.js", "expressjs"], "Django": [],
+    "Flask": [], "FastAPI": [], "Spring Boot": ["springboot"], "REST API": ["restful api", "rest apis"],
+    "GraphQL": [], "Microservices": ["microservice architecture"]
+  },
+  "Databases": {
+    "MongoDB": ["mongo"], "PostgreSQL": ["postgres", "postgresql"], "MySQL": [], "Redis": [],
+    "SQLite": [], "Elasticsearch": ["elastic search"]
+  },
+  "Machine Learning": {
+    "Machine Learning": ["ml"], "Scikit-learn": ["sklearn", "scikit learn"], "XGBoost": [],
+    "Natural Language Processing": ["nlp"], "Computer Vision": [], "Feature Engineering": []
+  },
+  "Deep Learning": {
+    "Deep Learning": [], "PyTorch": ["pytorch"], "TensorFlow": ["tensorflow"], "Keras": [],
+    "Transformers": ["transformer models"], "Sentence Transformers": ["sentence-transformers"]
+  },
+  "Cloud Computing": {
+    "AWS": ["amazon web services"], "Azure": ["microsoft azure"], "Google Cloud": ["gcp", "google cloud platform"],
+    "Serverless": ["serverless computing"]
+  },
+  "DevOps": {
+    "Docker": [], "Kubernetes": ["k8s"], "GitHub Actions": [], "Jenkins": [],
+    "CI/CD": ["continuous integration", "continuous delivery", "continuous deployment"], "Linux": [], "Terraform": []
+  },
+  "Data Science": {
+    "Pandas": [], "NumPy": ["numpy"], "Matplotlib": [], "Seaborn": [], "Apache Spark": ["spark"],
+    "Jupyter": ["jupyter notebook"], "Statistics": ["statistical analysis"], "Data Visualization": []
+  },
+  "Version Control": {"Git": [], "GitHub": [], "GitLab": [], "Bitbucket": []}
+}

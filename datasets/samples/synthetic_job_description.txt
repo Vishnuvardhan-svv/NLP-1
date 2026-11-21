@@ -1,0 +1,12 @@
+SYNTHETIC SAMPLE JOB DESCRIPTION — for local project testing only
+
+Role: Junior Full Stack Developer
+
+Required skills:
+Python, React, Express, Docker, AWS
+
+Preferred skills:
+MongoDB, Kubernetes
+
+Qualifications:
+Bachelor's degree or equivalent; experience with web applications is desirable.

@@ -1,0 +1,11 @@
+SYNTHETIC EDUCATIONAL CORPUS. These short sentences illustrate skill relationships for a capstone demo; they are not a general language dataset.
+Python programming supports data analysis machine learning and automation.
+JavaScript programming supports frontend development with React and web applications.
+Node.js JavaScript backend development supports Express REST API services.
+Docker containers package applications and Kubernetes orchestrates containers.
+AWS cloud computing provides deployment storage networking and serverless services.
+Machine learning uses statistics data science feature engineering and model evaluation.
+Deep learning uses neural networks and frameworks such as PyTorch and TensorFlow.
+Natural language processing analyzes text with machine learning and transformer models.
+Pandas and NumPy support Python data science and analysis.
+SQL and PostgreSQL are used for relational databases while MongoDB is a document database.

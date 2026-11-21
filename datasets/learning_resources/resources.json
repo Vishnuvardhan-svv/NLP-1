@@ -1,0 +1,7 @@
+[
+  {"skill": "Python", "title": "The Python Tutorial", "url": "https://docs.python.org/3/tutorial/", "source": "Python Software Foundation"},
+  {"skill": "JavaScript", "title": "Learn web development", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development", "source": "MDN Web Docs"},
+  {"skill": "HTML", "title": "Learn web development", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development", "source": "MDN Web Docs"},
+  {"skill": "CSS", "title": "Learn web development", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development", "source": "MDN Web Docs"},
+  {"skill": "Docker", "title": "Get started with Docker", "url": "https://docs.docker.com/get-started/", "source": "Docker Docs"}
+]

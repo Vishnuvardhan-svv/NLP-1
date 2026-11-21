@@ -1,0 +1,12 @@
+SYNTHETIC SAMPLE RESUME — for local project testing only
+
+Candidate: Example Student
+
+SKILLS
+Python, ReactJS, Node, MongoDB, Git
+
+EDUCATION
+BSc Computing, Example University, 2025
+
+PROJECTS
+Built a sample web application with JavaScript, React, Node.js, and MongoDB.

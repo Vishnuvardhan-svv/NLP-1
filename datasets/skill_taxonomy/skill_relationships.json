@@ -1,0 +1,8 @@
+{
+  "Python": {"category": "Programming Languages", "prerequisites": []},
+  "Django": {"category": "Backend Development", "prerequisites": ["Python"]},
+  "JavaScript": {"category": "Programming Languages", "prerequisites": []},
+  "React": {"category": "Frontend Development", "prerequisites": ["JavaScript"]},
+  "Docker": {"category": "DevOps", "prerequisites": []},
+  "Kubernetes": {"category": "DevOps", "prerequisites": ["Docker"]}
+}
