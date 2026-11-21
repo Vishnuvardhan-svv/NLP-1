@@ -5,7 +5,7 @@ It calculates exact and weighted skill coverage and suggests a prerequisite-orde
 A simple Streamlit interface presents the analysis, comparisons, and recommendations.
 
 
-Deployed Website Link - https://uaecs5u7appx6br7ffxqcyy.streamlit.app/
+Deployed Website Link - https://hxfllnkyveemdhuo6dfb8g.streamlit.app/
 
 ## Streamlit Community Cloud deployment
 
