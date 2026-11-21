@@ -1,10 +1,6 @@
-"""Roadmap ordering from curated prerequisite edges and local resources."""
-
 import json
 from pathlib import Path
-
 import networkx as nx
-
 from ml.skill_analysis.skill_graph import build_skill_graph
 from ml.skill_analysis.skill_normalization import category_for
 
