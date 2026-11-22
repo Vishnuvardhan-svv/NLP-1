@@ -13,9 +13,9 @@ from ml.skill_analysis.skill_graph import build_skill_graph, related_skills
 from ml.skill_analysis.skill_matching import compare_skills
 from ml.skill_analysis.skill_normalization import load_taxonomy
 
-st.set_page_config(page_title="SkillGraph AI", page_icon="📚", layout="wide")
+st.set_page_config(page_title="Career Pilot", page_icon="📚", layout="wide")
 PAGES = ["Dashboard", "Resume Upload", "Job Description", "Skill Gap Analysis", "Similarity Analysis", "Learning Roadmap"]
-st.sidebar.title("SkillGraph AI")
+st.sidebar.title("Career Pilot")
 page = st.sidebar.radio("Navigate", PAGES, key="page_nav")
 for key, default in {"resume_text": "", "resume_filename": "", "resume_skills": [], "resume_skill_source": None, "job_text": "", "required": [], "preferred": [], "analysis": None}.items():
     if key not in st.session_state:
