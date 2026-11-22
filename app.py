@@ -37,7 +37,7 @@ def load_transformer(local_files_only: bool = False):
     return load_transformer_model(local_files_only=local_files_only)
 
 if page == "Dashboard":
-    st.title("SkillGraph AI")
+    st.title("Carrer Pilot")
     st.caption("Interactive overview of the resume and job description in this session")
     analysis = st.session_state.analysis
     candidate_skills = st.session_state.resume_skills or extract_skills(st.session_state.resume_text)
